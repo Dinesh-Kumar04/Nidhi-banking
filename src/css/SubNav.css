@@ -1,0 +1,68 @@
+.subnav {
+    background: rgba(151, 20, 77, 0.90);
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbox-language {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.search-btn-1 {
+    position: absolute;
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+    transform: translate(6px, 0px);
+    color: grey;
+}
+
+.searchbox-language input {
+    height: 25px;
+    padding: 0 25px;
+}
+
+.search-btn-2 {
+    position: absolute;
+    transform: translate(207px, 0px);
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.searchbox-language h4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.searchbox-language select {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.searchbox-language select option {
+    color: #000;
+}
+
+.subnav-links {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subnav-links a {
+    color: #fff;
+    text-decoration: none;
+}

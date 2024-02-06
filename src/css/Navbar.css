@@ -30,6 +30,8 @@
     text-decoration: none;
     color: #000;
     transition: 0.5s;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .nav-links a:hover{
@@ -37,7 +39,7 @@
     color: rgba(151, 20, 77, 0.90);
 }
 
-.nav-links a h4{
-    font-weight: 600;
-    font-size: 18px;
+.active {
+    border-bottom: 2px solid rgba(151, 20, 77, 0.90);
+    transition: 0.5s;
 }

@@ -1,0 +1,90 @@
+.about-banner img {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.about-banner h4 {
+    position: absolute;
+    background: rgba(151, 20, 77, 0.90);
+    font-size: xx-large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    border-radius: 5px;
+    transform: translate(20px, -90px);
+    color: #fff;
+}
+
+.about-section-2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.about-sidenav {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-between;
+}
+
+.about-sidenav a{
+    text-decoration: none;
+    width: fit-content;
+}
+
+.about-sidenav a h4{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #000;
+    transition: 0.5s;
+}
+
+.about-sidenav a h4:hover{
+    color: rgba(151, 20, 77, 0.90);
+    transition: 0.5s;
+}
+
+.about-company-section {
+    width: 75vw;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-company-section p {
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.about-member-image {
+    padding: 5px 20px;
+}
+
+.about-member-image img {
+    width: auto;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.about-member-image h6 {
+    text-align: center;
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+.about-member-image h4 {
+    text-align: center;
+    background-color: rgba(151, 20, 77, 0.90);
+    padding: 5px 0;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    border-radius: 5px;
+}
